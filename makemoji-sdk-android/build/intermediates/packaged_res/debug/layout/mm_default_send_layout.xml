@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:paddingTop="0dp"
+    android:textStyle="bold"
+    android:paddingRight="4dp"
+    tools:enabled="false"
+    android:enabled="false"
+    android:text="@string/_mm_send_text" android:textSize="14sp"
+    android:textColor="@color/mm_send_layout_selector">
+
+</TextView>

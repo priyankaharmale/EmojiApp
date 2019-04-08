@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="mmKBPageTitleColor">@color/_mm_header_text_color</color>
+    <color name="mmKBIconColor">@color/_mm_grey_600</color>
+    <color name="mmKBProgressColor">@color/_mm_default_send_text_color</color>
+</resources>

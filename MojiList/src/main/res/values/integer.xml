@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="mm_3pk_rows">4</integer>
+    <integer name="mm_3pk_cols">7</integer>
+    <integer name="mm_3pk_gif_rows">2</integer>
+
+    <integer name="_mm_pulse_duration">1500</integer>
+    <integer name="_mm_moji_input_max_lines">5</integer>
+    <integer name="_mm_gif_rows">2</integer>
+    <integer name="_mm_video_rows">2</integer>
+    <integer name="_mm_emoji_rows">4</integer>
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="_mm_wall_header_layout"/>
+    <attr format="color|reference" name="_mm_wall_pager_bg"/>
+    <attr format="reference" name="_mm_wall_tab_layout"/>
+    <attr format="color|reference" name="_mm_wall_tabs_bg"/>
+    <bool name="mmUseSpanSizeForSdkImages">false</bool>
+    <color name="_mm_black_87">#de000000</color>
+    <color name="_mm_default_phrase_bg_color">#dfdfdf</color>
+    <color name="_mm_default_reaction_text_color">#3e8ff9</color>
+    <color name="_mm_default_send_text_color">#3e8ff9</color>
+    <color name="_mm_gradient_bottom">#c3c3c3</color>
+    <color name="_mm_grey_600">#616161</color>
+    <color name="_mm_grey_900">#212121</color>
+    <color name="_mm_header_text_color">#6c6c6c</color>
+    <color name="_mm_horiz_rv_bg">#EDEDED</color>
+    <color name="_mm_left_button_cf">#555555</color>
+    <color name="_mm_light_grey">#aeabab</color>
+    <color name="_mm_reaction_bg_color">#ffffff</color>
+    <color name="_mm_top_layout_bg">#EDEDED</color>
+    <color name="mmKBIconColor">@color/_mm_grey_600</color>
+    <color name="mmKBPageTitleColor">@color/_mm_header_text_color</color>
+    <color name="mmKBProgressColor">@color/_mm_default_send_text_color</color>
+    <color name="mmKBShareTextColor">@color/_mm_default_send_text_color</color>
+    <declare-styleable name="MMForegroundImageView"><attr format="reference" name="_mm_foreground"/></declare-styleable>
+    <declare-styleable name="MojiInputLayout"><attr format="reference" name="_mm_sendButtonLayout"/><attr format="reference" name="_mm_backSpaceButtonDrawable"/><attr format="reference" name="_mm_cameraButtonDrawable"/><attr format="boolean" name="_mm_cameraButtonVisible"/><attr format="color" name="_mm_leftButtonColor"/><attr format="reference" name="_mm_leftButtonBg"/><attr format="reference|color" name="_mm_leftContainerDrawable"/><attr format="color" name="_mm_headerTextColor"/><attr format="integer|color" name="_mm_topBarBg"/><attr format="reference|color" name="_mm_bottomPageBg"/><attr format="reference|color" name="_mm_trendingBarBg"/><attr format="color" name="_mm_phraseBgColor"/><attr format="boolean" name="_mm_showKbOnInflate"/><attr format="boolean" name="_mm_alwaysShowEmojiBar"/><attr format="boolean" name="_mm_largeEmojiSizing"/><attr format="integer" name="_mm_minimumSendLength"/></declare-styleable>
+    <declare-styleable name="ReactionsLayout"><attr format="color" name="_mm_reactionTextColor"/><attr format="reference" name="_mm_reactionCellBg"/></declare-styleable>
+    <dimen name="mm_cat_width">70dp</dimen>
+    <dimen name="mm_edit_text_size">16sp</dimen>
+    <dimen name="mm_grid_page_horiz_spacing">4dp</dimen>
+    <dimen name="mm_grid_page_vert_spacing">0dp</dimen>
+    <dimen name="mm_page_height">225dp</dimen>
+    <dimen name="mm_reaction_cell_height">30dp</dimen>
+    <dimen name="mm_toggle_button_width">53dp</dimen>
+    <dimen name="mm_video_moji_item_text_size">12sp</dimen>
+    <item name="_makemoji_category_tag_id" type="id"/>
+    <item name="_makemoji_gif_invalidated_id" type="id"/>
+    <item name="_makemoji_hypermoji_listener_tag_id" type="id"/>
+    <item name="_makemoji_last_invalidated_id" type="id"/>
+    <item name="_makemoji_load_exact_size" type="id"/>
+    <item name="_makemoji_locked_tag_id" type="id"/>
+    <item name="_makemoji_request_layout_id" type="id"/>
+    <item name="_makemoji_rn_find_tag_id" type="id"/>
+    <item name="_makemoji_rn_html_tag_id" type="id"/>
+    <item name="_makemoji_text_watcher" type="id"/>
+    <item name="_makemoji_tv_has_new_load" type="id"/>
+    <integer name="_mm_emoji_cols">4</integer>
+    <integer name="_mm_emoji_rows">4</integer>
+    <integer name="_mm_gif_rows">2</integer>
+    <integer name="_mm_moji_input_max_lines">5</integer>
+    <integer name="_mm_pulse_duration">1500</integer>
+    <integer name="_mm_video_rows">2</integer>
+    <string name="_mm_abc">ABC</string>
+    <string name="_mm_backspace">backspace</string>
+    <string name="_mm_categories">Categories</string>
+    <string name="_mm_choose_emoji">Choose Emoji</string>
+    <string name="_mm_recent">Recent</string>
+    <string name="_mm_send_text">Send</string>
+    <string name="_mm_trending">Trending</string>
+    <item name="app_name" type="string">MakeMojiLib</item>
+    <item name="nested_scroll_long_text" type="string">asfnajsfdasjfdbhasdapfdhbasbaspdfasfd asnfasnfd aapfbasfdasfdasfdasfasfdsbajdf;jasfdbasfdasfdfasfdafd</item>
+    <style name="MakeMojiHeaderTextAppearance">
+        <item name="android:textColor">@color/_mm_header_text_color</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">10sp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        </style>
+    <style name="MakeMojiLeftButtonStyle">
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:background">@drawable/mm_left_button_item_bg</item>
+    </style>
+    <style name="MojiInputLayoutDefaultStyle">
+        <item name="_mm_sendButtonLayout">@layout/mm_default_send_layout</item>
+        <item name="_mm_backSpaceButtonDrawable">@drawable/mm_backspace_grey600_24dp</item>
+        <item name="_mm_cameraButtonDrawable">@drawable/mm_camera_icon</item>
+        <item name="_mm_cameraButtonVisible">true</item>
+        <item name="_mm_topBarBg">@color/_mm_top_layout_bg</item>
+        <item name="_mm_bottomPageBg">@color/_mm_top_layout_bg</item>
+        <item name="_mm_trendingBarBg">@color/_mm_top_layout_bg</item>
+        <item name="_mm_phraseBgColor">@color/_mm_default_phrase_bg_color</item>
+        <item name="_mm_headerTextColor">@color/_mm_header_text_color</item>
+        <item name="_mm_leftButtonColor">@color/_mm_left_button_cf</item>
+        <item name="_mm_leftButtonBg">@drawable/mm_left_button_item_bg</item>
+        <item name="_mm_leftContainerDrawable">#DBDBDB</item>
+        <item name="_mm_showKbOnInflate">false</item>
+        <item name="_mm_alwaysShowEmojiBar">false</item>
+        <item name="_mm_minimumSendLength">1</item>
+        <item name="_mm_largeEmojiSizing">true</item>
+    </style>
+    <style name="MojiInputLayoutDefaultStyle.White">
+        <item name="_mm_trendingBarBg">@android:color/white</item>
+        <item name="_mm_topBarBg">@android:color/white</item>
+        <item name="_mm_headerTextColor">@color/_mm_header_text_color</item>
+        <item name="_mm_leftButtonColor">@color/_mm_left_button_cf</item>
+        <item name="_mm_leftButtonBg">@drawable/mm_left_button_item_bg</item>
+    </style>
+    <style name="MojiWallDefaultStyle" parent="Theme.AppCompat">
+        <item name="_mm_wall_tab_layout">@layout/mm_wall_tab</item>
+        <item name="_mm_wall_header_layout">@layout/mm_wall_header</item>
+        <item name="_mm_wall_tabs_bg">@android:color/black</item>
+        <item name="_mm_wall_pager_bg">@color/_mm_grey_900</item>
+        <item name="android:statusBarColor">@android:color/black</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="ReactionsDefaultStyle">
+        <item name="_mm_reactionTextColor">@color/_mm_default_send_text_color</item>
+        <item name="_mm_reactionCellBg">@drawable/mm_left_page_gradient</item>
+    </style>
+</resources>

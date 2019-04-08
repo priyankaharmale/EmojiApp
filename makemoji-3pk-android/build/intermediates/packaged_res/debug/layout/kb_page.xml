@@ -1,0 +1,118 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/_mm_kb_pageframe"
+    android:layout_width="match_parent"
+    android:layout_height="210dp"
+    android:orientation="vertical"
+    tools:layout_height="wrap_content">
+
+    <fr.castorflex.android.smoothprogressbar.SmoothProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/_mm_spb"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:indeterminate="true"
+        android:visibility="invisible"
+        app:spb_color="@color/_mm_default_send_text_color"
+        app:spb_mirror_mode="false"
+        app:spb_progressiveStart_activated="false"
+
+        app:spb_progressiveStart_speed="1.5"
+        app:spb_progressiveStop_speed="3.4"
+        app:spb_reversed="false"
+        app:spb_sections_count="4"
+        app:spb_speed="1.5"
+        app:spb_stroke_separator_length="12dp"
+        app:spb_stroke_width="4dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextSwitcher
+            android:id="@+id/kb_page_heading"
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:textColor="@color/mmKBPageTitleColor"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textColor="@color/mmKBPageTitleColor"
+
+                android:textSize="18sp" />
+        </TextSwitcher>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/share_kb_tv"
+            style="@style/MakeMojiHeaderTextAppearance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="0dp"
+            android:paddingRight="15dp"
+            android:text="Share Keyboard"
+            android:textColor="@color/mmKBShareTextColor"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <TextSwitcher
+        android:id="@+id/kb_page_headingsubcategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/mmKBPageTitleColor"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:textColor="@color/mmKBPageTitleColor"
+
+            android:textSize="18sp" />
+    </TextSwitcher>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/kb_page_grid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingRight="60dp"
+            android:clipToPadding="false"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="jjgh"
+            android:textColor="@color/mmKBPageTitleColor"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+</LinearLayout>

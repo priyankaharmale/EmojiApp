@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MojiInputLayout">
+        <attr name="_mm_sendButtonLayout" format="reference" />
+        <attr name="_mm_backSpaceButtonDrawable" format="reference" />
+        <attr name="_mm_cameraButtonDrawable" format="reference"/>
+        <attr name="_mm_cameraButtonVisible" format="boolean"/>
+        <attr name="_mm_leftButtonColor" format="color"/>
+        <attr name="_mm_leftButtonBg" format="reference"/>
+        <attr name="_mm_leftContainerDrawable" format="reference|color"/>
+        <attr name="_mm_headerTextColor" format="color"/>
+        <attr name="_mm_topBarBg" format="integer|color"/>
+        <attr name="_mm_bottomPageBg" format="reference|color"/>
+        <attr name="_mm_trendingBarBg" format="reference|color"/>
+        <attr name="_mm_phraseBgColor" format="color"/>
+        <attr name="_mm_showKbOnInflate" format="boolean"/>
+        <attr name="_mm_alwaysShowEmojiBar" format="boolean"/>
+        <attr name="_mm_largeEmojiSizing" format="boolean"/>
+        <attr name="_mm_minimumSendLength" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="MMForegroundImageView">
+        <attr name="_mm_foreground" format="reference"/>
+    </declare-styleable>
+        <attr name="_mm_wall_tab_layout" format="reference"/>
+        <attr name="_mm_wall_header_layout" format="reference"/>
+        <attr name="_mm_wall_tabs_bg" format="color|reference"/>
+        <attr name="_mm_wall_pager_bg" format="color|reference"/>
+
+    <declare-styleable name="ReactionsLayout">
+        <attr name="_mm_reactionTextColor" format="color"/>
+        <attr name="_mm_reactionCellBg" format="reference"/>
+    </declare-styleable>
+</resources>

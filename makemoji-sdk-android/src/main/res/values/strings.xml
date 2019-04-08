@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="app_name" type="string">MakeMojiLib</item>
+    <item name="nested_scroll_long_text" type="string">asfnajsfdasjfdbhasdapfdhbasbaspdfasfd asnfasnfd aapfbasfdasfdasfdasfasfdsbajdf;jasfdbasfdasfdfasfdafd</item>
+
+    <string name="_mm_abc">ABC</string>
+    <string name="_mm_backspace">backspace</string>
+    <string name="_mm_choose_emoji">Choose Emoji</string>
+    <string name="_mm_send_text">Send</string>
+    <string name="_mm_trending">Trending</string>
+    <string name="_mm_recent">Recent</string>
+    <string name="_mm_categories">Categories</string>
+</resources>

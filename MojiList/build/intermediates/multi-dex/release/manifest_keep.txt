@@ -1,0 +1,3 @@
+# Referenced at E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\build\intermediates\manifests\full\release\AndroidManifest.xml:17
+-keep class com.makemoji.sbaar.alpha.App { <init>(...); }
+

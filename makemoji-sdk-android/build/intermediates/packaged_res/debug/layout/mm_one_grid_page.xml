@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    tools:layout_height="100dp"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/_mm_categories"
+        android:paddingTop="4dp"
+        android:textSize="18sp"
+        android:layout_gravity="center"
+        android:paddingBottom="4dp"
+        android:id="@+id/_mm_page_heading"
+        android:layout_height="wrap_content" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/_mm_page_grid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        tools:height="100dp"
+        android:layout_weight="1"
+        />
+    <LinearLayout
+        android:id="@+id/_mm_one_grid_footer"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_vertical|bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="2dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/_mm_abc_tv"
+            style="@style/MakeMojiHeaderTextAppearance"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:text="@string/_mm_abc"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            />
+        <ImageView
+            android:id="@+id/_mm_backspace_button"
+            android:padding="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mm_backspace_grey600_24dp"
+            android:contentDescription="@string/_mm_backspace" />
+    </LinearLayout>
+</LinearLayout>

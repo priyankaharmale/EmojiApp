@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="_makemoji_hypermoji_listener_tag_id" type="id"/>
+    <item name="_makemoji_last_invalidated_id" type="id"/>
+    <item name="_makemoji_gif_invalidated_id" type="id"/>
+    <item name="_makemoji_request_layout_id" type="id"/>
+    <!-- set on a view when a mojispan has loaded an image -->
+    <item name="_makemoji_tv_has_new_load" type="id"/>
+    <item name="_makemoji_load_exact_size" type="id"/>
+    <item name="_makemoji_text_watcher" type="id"/>
+    <item name="_makemoji_locked_tag_id" type="id"/>
+    <item name="_makemoji_category_tag_id" type="id"/>
+    <item name="_makemoji_rn_html_tag_id" type="id"/>
+    <item name="_makemoji_rn_find_tag_id" type="id"/>
+</resources>

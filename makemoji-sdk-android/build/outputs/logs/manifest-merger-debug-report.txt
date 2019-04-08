@@ -1,0 +1,57 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:1-10:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:1-10:12
+	package
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:2:52-82
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:1-10:12
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:2:5-51
+	android:versionCode
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:1-10:12
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:3:5-67
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:3:22-64
+uses-permission#com.android.vending.BILLING
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:4:22-64
+uses-sdk
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:5:5-77
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:5:5-77
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:5:5-77
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:5:5-77
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:5:5-77
+	tools:overrideLibrary
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:5:15-75
+	android:targetSdkVersion
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:5:5-77
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:5:5-77
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml
+application
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:6:5-7:50
+	android:supportsRtl
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:7:9-35
+	android:label
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:6:45-77
+	android:allowBackup
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\src\main\AndroidManifest.xml:6:18-44

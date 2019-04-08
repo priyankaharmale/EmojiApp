@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.myinnos:GiphyImageResultsPreview-1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/GiphyImageResultsPreview-1.0.aar/c6f8719eb75c77f4e84107f5c51045ba/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/GiphyImageResultsPreview-1.0.aar/c6f8719eb75c77f4e84107f5c51045ba/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.myinnos/GiphyImageResultsPreview/1.0/af5bd0850043d55a1153fbb83cb18e8787a8884d/GiphyImageResultsPreview-1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

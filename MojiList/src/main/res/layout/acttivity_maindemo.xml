@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+
+
+                android:text="Steps to enable Emoji App ."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+
+
+                android:text="1. Go to the settings by tapping on the Settings icon of your device."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+                android:text="2. Choose “Language and Keyboard."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+
+
+                android:text="3. Find the Emoji App  Keyboard."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+
+
+                android:text="4. Start writing a text message. "
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+
+
+                android:text="5. Tap and hold on the text field."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+
+
+                android:text="6. Select “Input Method."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:padding="5dp"
+
+
+                android:text="7. Select the Emoji App  Emoji keyboard."
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"></TextView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

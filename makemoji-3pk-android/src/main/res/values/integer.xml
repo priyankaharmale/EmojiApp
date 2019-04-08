@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="mm_3pk_rows">4</integer>
+    <integer name="mm_3pk_cols">7</integer>
+    <integer name="mm_3pk_gif_rows">2</integer>
+</resources>

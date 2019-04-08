@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.makemoji.keyboard">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <application>
+        <service
+            android:name=".MMKB"
+            android:label="@string/_mm_kb_label"
+            android:theme="@style/AppFullScreenTheme"
+            android:enabled="@bool/mmEnableDefaultKeyboard"
+            android:permission="android.permission.BIND_INPUT_METHOD">
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
+
+
+        <provider
+            android:name=".MMFileProvider"
+            android:authorities="@string/_mm_provider_authority"
+            android:exported="false"
+            android:enabled="@bool/mmEnableDefaultKeyboardProvider"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/mm_file_paths" />
+        </provider>
+    </application>
+
+</manifest>

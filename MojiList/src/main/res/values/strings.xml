@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Emoji App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_text_up">Text Size +</string>
+    <string name="action_text_down">Text Size -</string>
+    <string name="action_toggle_simple">Simple/Chat</string>
+    <string name="title_activity_input">Emoji App</string>
+    <string name="_mm_kb_label">Emoji App</string>
+    <string name="_mm_kb_settings_activity">com.makemoji.sbaar.mojilist.ActivateActivity</string>
+    <string name="appkey">17898532df22db35a9b1ff14a95e5bcbcf273cb9</string>
+    <string name="appkeydemo">17898532df22db35a9b1ff14a95e5bcbcf273cb9</string>
+</resources>

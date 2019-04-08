@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="?attr/_mm_wall_pager_bg"
+    android:textColor="@android:color/white"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:gravity="center"
+    android:text="@string/_mm_choose_emoji"
+    android:visibility="visible"/>

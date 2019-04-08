@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.makemoji.sbaar.alpha"
+    android:versionCode="9"
+    android:versionName="1.8" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name="com.makemoji.sbaar.alpha.App"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/appicob"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.makemoji.mojilib.wall.MojiWallActivity"
+            android:label="Emoji Wall Activity" />
+        <activity
+            android:name="com.makemoji.sbaar.alpha.InputActivity"
+            android:label="Emoji"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.makemoji.sbaar.alpha.ImageActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.makemoji.sbaar.alpha.ImageListActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.makemoji.sbaar.alpha.GIFActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.makemoji.sbaar.alpha.inappNew"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.makemoji.sbaar.alpha.MainActivity"
+            android:label="Setting"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.makemoji.sbaar.alpha.SplashScreen"
+            android:label="@string/title_activity_input"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.makemoji.mojilib.action.LOCKED_CATEGORY_CLICKED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.makemoji.sbaar.alpha.ActivateActivity"
+            android:label="MakeMoji Keyboard"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="stateUnchanged" >
+            <intent-filter>
+                <action android:name="android.intent.action.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.makemoji.sbaar.alpha.ReactionsActivity" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.makemoji.sbaar.alpha.provider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider" />
+        </provider>
+
+        <service
+            android:name="com.makemoji.keyboard.MMKB"
+            android:enabled="@bool/mmEnableDefaultKeyboard"
+            android:label="@string/_mm_kb_label"
+            android:permission="android.permission.BIND_INPUT_METHOD"
+            android:theme="@style/AppFullScreenTheme" >
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+
+        <provider
+            android:name="com.makemoji.keyboard.MMFileProvider"
+            android:authorities="@string/_mm_provider_authority"
+            android:enabled="@bool/mmEnableDefaultKeyboardProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/mm_file_paths" />
+        </provider>
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EmojiApp.iml" filepath="$PROJECT_DIR$/EmojiApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MojiList/MojiList.iml" filepath="$PROJECT_DIR$/MojiList/MojiList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makemoji-3pk-android/makemoji-3pk-android.iml" filepath="$PROJECT_DIR$/makemoji-3pk-android/makemoji-3pk-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/makemoji-sdk-android/makemoji-sdk-android.iml" filepath="$PROJECT_DIR$/makemoji-sdk-android/makemoji-sdk-android.iml" />
+    </modules>
+  </component>
+</project>

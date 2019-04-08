@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="match_parent">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_height="0dp" android:layout_weight="1">
+    <com.makemoji.mojilib.MojiImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:id="@+id/_mm_moji_iv"
+        android:src="@drawable/mm_placeholder"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        tools:maxWidth="100dp"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="2dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mm_play_overlay"
+        android:id="@+id/_mm_play_overlay"
+        android:layout_gravity="top|left"/>
+
+
+</FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/mm_item_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/mm_video_moji_item_text_size"
+        tools:text="Title"/>
+
+</LinearLayout>

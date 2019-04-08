@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.makemoji.sbaar.alpha.MainActivity">
+
+    <item
+        android:id="@+id/action_attach"
+        android:orderInCategory="100"
+        android:title="Attatch EditText"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_detach"
+        android:orderInCategory="100"
+        android:title="Detach EditText"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_plain_conversion"
+        android:orderInCategory="100"
+        android:title="Plain Text and Back"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_kb_activate"
+        android:orderInCategory="100"
+        android:title="Activate Keyboard"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_emoji_wall_activity"
+        android:orderInCategory="100"
+        android:title="Emoji Wall Activity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_clear_unlocks"
+        android:orderInCategory="100"
+        android:title="Clear Unlocked Categories"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reactions_activity"
+        android:orderInCategory="100"
+        android:title="Reactions Activity"
+        app:showAsAction="never" />
+</menu>

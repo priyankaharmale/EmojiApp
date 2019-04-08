@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Reuse bitmaps used for spans in textview; turn this off when using fewer rows/cols in 3pk -->
+    <bool name="mmUseSpanSizeFor3pkImages">false</bool>
+    <bool name="mmEnableDefaultKeyboard">true</bool>
+    <bool name="mmEnableDefaultKeyboardProvider">true</bool>
+</resources>

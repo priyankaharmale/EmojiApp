@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#74809c</item>
+        <item name="colorPrimaryDark">#74809c</item>
+        <item name="colorAccent">#74809c</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#74809c</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds" tools:ignore="NewApi">true</item>
+        <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" tools:ignore="NewApi">#74809c</item>
+
+
+
+    </style>
+    <style name="AppTheme.NoActionBar.DarkStatusBar">
+        <item name="android:statusBarColor" tools:ignore="NewApi">@android:color/black</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MojiWallDefaultStyle.Light">
+        <item name="_mm_wall_tab_layout">@layout/mm_wall_tab</item>
+        <item name="_mm_wall_header_layout">@layout/mm_wall_header</item>
+        <item name="_mm_wall_tabs_bg">@android:color/white</item>
+        <item name="_mm_wall_pager_bg">@color/_mm_light_grey</item>
+    </style>
+    <style name="MyTabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- A copy of the default moji input layout style, for documentation
+    _mm_sendButtonLayout -> The layout that will be inflated to the right of the edit text. Disabled when the input is empty
+    _mm_backSpaceButtonDrawable -> Drawable for the backspace button
+    _mm_cameraButtonDrawable -> Drawable to be used for ImageView to left of input
+    _mm_cameraButtonVisible -> Display the camera button by default
+    _mm_topBarBg -> Background resource of top [camera,text,sendButton] view
+    _mm_bottomPageBg -> Background resource of emoji suggestion/search bar and category pages
+    _mm_mainBgColor - > Background color of the root view and hence most children.
+    _mm_phraseBgColor -> bg color for a phrase item, if you have a phrase category.
+    _mm_headerTextColor -> Text color of page headers and text in search bar
+    _mm_leftButtonColor -> Color filter to apply to the trending, category, search, and recent buttons. Complements leftContainerDrawable
+    _mm_leftButtonBg -> Drawable bg for left button. Default is transparent, and highlighted when activated.
+    _mm_leftContainerDrawable -> Drawable bg for button container left of emoji bar.
+    _mm_showKbOnInflate -> Grab focus, show keyboard and cursor on input when view is inflated, or not.
+    _mm_alwaysShowEmojiBar -> Always show emoji bar, or only when the keyboard is up.
+    _mm_minimumSendLength -> minimum characters to enter before the send layout is enabled.
+
+    To styles the edit text, define a editTextStyle in a theme set the theme attribute in this view.
+    Look at integer.xml, bool.xml, and dimen.xml to customize the number of rows, spacing, and memory optimization.
+
+    If you need additional customization, just ask or examine mm_moji_input_layout.xml and play around with findViewById.
+
+    -->
+    <style name="MojiInputLayoutDefaultStyle.Copy">
+        <item name="_mm_sendButtonLayout">@layout/mm_default_send_layout</item>
+        <item name="_mm_backSpaceButtonDrawable">@drawable/mm_backspace_grey600_24dp</item>
+        <item name="_mm_cameraButtonDrawable">@drawable/mm_camera_icon</item>
+        <item name="_mm_cameraButtonVisible">true</item>
+        <item name="_mm_topBarBg">@color/_mm_top_layout_bg</item>
+        <item name="_mm_bottomPageBg">@color/_mm_top_layout_bg</item>
+        <item name="_mm_phraseBgColor">@color/_mm_default_phrase_bg_color</item>
+        <item name="_mm_headerTextColor">@color/_mm_header_text_color</item>
+        <item name="_mm_leftButtonColor">@color/_mm_left_button_cf</item>
+        <item name="_mm_leftButtonBg">@drawable/mm_left_button_item_bg</item>
+        <item name="_mm_leftContainerDrawable">@drawable/mm_left_page_gradient</item>
+        <item name="_mm_showKbOnInflate">false</item>
+        <item name="_mm_alwaysShowEmojiBar">false</item>
+        <item name="_mm_minimumSendLength">1</item>
+
+    </style>
+    <style name="MojiWallDefaultStyle.CustomDrawables">
+        <item name="_mm_backSpaceButtonDrawable">@drawable/mm_trending</item>
+        <item name="_mm_cameraButtonDrawable">@drawable/mm_back_icon</item>
+    </style>
+
+</resources>

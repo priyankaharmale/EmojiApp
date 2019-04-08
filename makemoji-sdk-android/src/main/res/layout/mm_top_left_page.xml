@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_height="50dp"
+    tools:layout_width="match_parent"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:id="@+id/_mm_left_buttons"
+    android:visibility="visible"
+    android:background="@drawable/mm_left_page_gradient"
+    android:layout_height="match_parent" android:gravity="right">
+    <FrameLayout
+        android:id="@+id/_mm_spacer_left"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_gravity="center_vertical"
+        android:layout_height="match_parent"
+        >
+        <ImageView
+            android:id="@+id/_mm_back_button"
+            android:paddingRight="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/mm_back_icon"
+            android:visibility="invisible"
+            android:layout_gravity="center_vertical|left"
+            android:paddingLeft="16dp"/>
+        </FrameLayout>
+
+    <ImageView
+        style="@style/MakeMojiLeftButtonStyle"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:id="@+id/_mm_categories_button"
+        android:src="@drawable/mm_grid_icon"/>
+    <ImageView
+        style="@style/MakeMojiLeftButtonStyle"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:id="@+id/_mm_trending_button"
+        android:visibility="gone"
+        android:src="@drawable/mm_trending_icon"/>
+    <ImageView
+        style="@style/MakeMojiLeftButtonStyle"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:id="@+id/_mm_recent_button"
+        android:visibility="gone"
+
+        android:src="@drawable/mm_recent"/>
+
+    <ImageView
+        android:id="@+id/_mm_toggle_button"
+        style="@style/MakeMojiLeftButtonStyle"
+        android:layout_width="@dimen/mm_toggle_button_width"
+        android:layout_height="match_parent"
+        android:src="@drawable/mm_toggle_left" />
+    <View
+        android:id="@+id/_mm_spacer_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+</LinearLayout>

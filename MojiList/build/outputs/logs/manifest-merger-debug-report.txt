@@ -1,0 +1,374 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:80:9-88:20
+	android:grantUriPermissions
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:84:13-47
+	android:authorities
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:82:13-60
+	android:exported
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:83:13-37
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:81:13-67
+manifest
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12
+MERGED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-43:12
+MERGED from [:makemoji-sdk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\2d5e73659654f9e00a72970297197e28\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.myinnos:GiphyImageResultsPreview:1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\GiphyImageResultsPreview-1.0.aar\c6f8719eb75c77f4e84107f5c51045ba\AndroidManifest.xml:2:1-17:12
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:17:1-57:12
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\eaab715d7fbc09537aa1780367be1180\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c2faf32b1555438ae5ca942eb4fe2048\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\3c426f56b856a8634646e923b3293608\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\4b6e4d05aa33c2c1383a1b287841885b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\7e499411fd095227b29965b5cb1fea20\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\55d7159c89a27f051e7923569eaac639\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\1a8fa577d165110ea1feb551e9c60a31\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\37b6bff4f0332d8d39dc9b2862b93913\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\02f0d992fe3a0581a2583a1898ef4ca6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\2e02cec42e605b23b10a07d5b164c507\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\ede0f4d00178689c6b59a7af34695b31\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\e2e1a2f6520c847be9aeab03b2a2e272\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\036249b9949632a0d7a156dfa7a6af8a\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\5578fd21f224ca5e2c2a92feaa11ad03\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\685db43d59d730ff4f6b8216e3561363\AndroidManifest.xml:17:1-22:12
+MERGED from [com.romandanylyk:pageindicatorview:0.2.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\pageindicatorview-0.2.0.aar\6745e9a02caba94e2434db0ae54a6c96\AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\4aed5c55c0ea9c62d9dd153ee73d9287\AndroidManifest.xml:2:1-14:12
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\ce518e6fdfe530efef8824051e7069f2\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12
+	package
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:4:5-39
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:6:5-67
+MERGED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-67
+MERGED from [:makemoji-sdk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
+MERGED from [:makemoji-sdk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:7:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:24:5-81
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:7:22-78
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:8:5-71
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:8:22-68
+uses-sdk
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:10:5-78
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:10:5-78
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:10:5-78
+MERGED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:makemoji-sdk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-11:72
+MERGED from [:makemoji-sdk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:8:5-11:72
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\2d5e73659654f9e00a72970297197e28\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.3] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\2d5e73659654f9e00a72970297197e28\AndroidManifest.xml:20:5-43
+MERGED from [com.github.myinnos:GiphyImageResultsPreview:1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\GiphyImageResultsPreview-1.0.aar\c6f8719eb75c77f4e84107f5c51045ba\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.myinnos:GiphyImageResultsPreview:1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\GiphyImageResultsPreview-1.0.aar\c6f8719eb75c77f4e84107f5c51045ba\AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:20:5-44
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:20:5-44
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\eaab715d7fbc09537aa1780367be1180\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\eaab715d7fbc09537aa1780367be1180\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:design:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c2faf32b1555438ae5ca942eb4fe2048\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\design-27.0.2.aar\c2faf32b1555438ae5ca942eb4fe2048\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\3c426f56b856a8634646e923b3293608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v13:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-v13-27.0.2.aar\3c426f56b856a8634646e923b3293608\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\4b6e4d05aa33c2c1383a1b287841885b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-v4-27.0.2.aar\4b6e4d05aa33c2c1383a1b287841885b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\7e499411fd095227b29965b5cb1fea20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\7e499411fd095227b29965b5cb1fea20\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\55d7159c89a27f051e7923569eaac639\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-fragment-27.0.2.aar\55d7159c89a27f051e7923569eaac639\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\1a8fa577d165110ea1feb551e9c60a31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.0.2.aar\1a8fa577d165110ea1feb551e9c60a31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\37b6bff4f0332d8d39dc9b2862b93913\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.0.2.aar\37b6bff4f0332d8d39dc9b2862b93913\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\02f0d992fe3a0581a2583a1898ef4ca6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.0.2.aar\02f0d992fe3a0581a2583a1898ef4ca6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\2e02cec42e605b23b10a07d5b164c507\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.0.2.aar\2e02cec42e605b23b10a07d5b164c507\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\ede0f4d00178689c6b59a7af34695b31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customtabs:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\customtabs-27.0.2.aar\ede0f4d00178689c6b59a7af34695b31\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\e2e1a2f6520c847be9aeab03b2a2e272\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\transition-27.0.2.aar\e2e1a2f6520c847be9aeab03b2a2e272\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\036249b9949632a0d7a156dfa7a6af8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.0.2.aar\036249b9949632a0d7a156dfa7a6af8a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\5578fd21f224ca5e2c2a92feaa11ad03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.0.2.aar\5578fd21f224ca5e2c2a92feaa11ad03\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\685db43d59d730ff4f6b8216e3561363\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.2] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\support-compat-27.0.2.aar\685db43d59d730ff4f6b8216e3561363\AndroidManifest.xml:20:5-44
+MERGED from [com.romandanylyk:pageindicatorview:0.2.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\pageindicatorview-0.2.0.aar\6745e9a02caba94e2434db0ae54a6c96\AndroidManifest.xml:8:5-10:41
+MERGED from [com.romandanylyk:pageindicatorview:0.2.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\pageindicatorview-0.2.0.aar\6745e9a02caba94e2434db0ae54a6c96\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\4aed5c55c0ea9c62d9dd153ee73d9287\AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\4aed5c55c0ea9c62d9dd153ee73d9287\AndroidManifest.xml:8:5-10:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\ce518e6fdfe530efef8824051e7069f2\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.3] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\runtime-1.0.3.aar\ce518e6fdfe530efef8824051e7069f2\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:10:5-78
+INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:10:5-78
+	tools:overrideLibrary
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:10:15-75
+	android:targetSdkVersion
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:10:5-78
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:10:5-78
+		INJECTED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml
+application
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:11:5-89:19
+MERGED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-41:19
+MERGED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:15:5-41:19
+MERGED from [:makemoji-sdk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-19:38
+MERGED from [:makemoji-sdk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:5-19:38
+MERGED from [com.github.myinnos:GiphyImageResultsPreview:1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\GiphyImageResultsPreview-1.0.aar\c6f8719eb75c77f4e84107f5c51045ba\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.myinnos:GiphyImageResultsPreview:1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\GiphyImageResultsPreview-1.0.aar\c6f8719eb75c77f4e84107f5c51045ba\AndroidManifest.xml:11:5-15:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:26:5-55:19
+MERGED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:26:5-55:19
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\eaab715d7fbc09537aa1780367be1180\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.0.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\volley-1.0.0.aar\eaab715d7fbc09537aa1780367be1180\AndroidManifest.xml:9:5-20
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\4aed5c55c0ea9c62d9dd153ee73d9287\AndroidManifest.xml:12:5-20
+MERGED from [com.github.castorflex.smoothprogressbar:library:1.1.0] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\library-1.1.0.aar\4aed5c55c0ea9c62d9dd153ee73d9287\AndroidManifest.xml:12:5-20
+	android:supportsRtl
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:18:9-35
+	android:label
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:16:9-41
+	android:hardwareAccelerated
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:14:9-44
+	android:largeHeap
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:17:9-33
+	android:icon
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:15:9-41
+	android:allowBackup
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:19:9-40
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:12:9-28
+activity#com.makemoji.mojilib.wall.MojiWallActivity
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:21:9-23:60
+	android:label
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:22:13-70
+activity#com.makemoji.sbaar.alpha.InputActivity
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:24:9-27:68
+	android:label
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:26:13-34
+	android:theme
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:25:13-42
+activity#com.makemoji.sbaar.alpha.ImageActivity
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:28:9-30:68
+	android:theme
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:30:13-56
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:29:13-42
+activity#com.makemoji.sbaar.alpha.ImageListActivity
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:31:9-33:68
+	android:theme
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:33:13-56
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:32:13-46
+activity#com.makemoji.sbaar.alpha.GIFActivity
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:34:9-36:68
+	android:theme
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:36:13-56
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:35:13-40
+activity#com.makemoji.sbaar.alpha.inappNew
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:37:9-39:68
+	android:theme
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:39:13-56
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:38:13-37
+activity#com.makemoji.sbaar.alpha.MainActivity
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:41:9-44:68
+	android:label
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:43:13-36
+	android:theme
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:44:13-56
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:42:13-41
+activity#com.makemoji.sbaar.alpha.SplashScreen
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:45:9-68:20
+	android:label
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:47:13-57
+	android:launchMode
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:48:13-44
+	android:theme
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:50:13-56
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:46:13-41
+intent-filter#action:name:com.makemoji.mojilib.action.LOCKED_CATEGORY_CLICKED+category:name:android.intent.category.DEFAULT
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:51:13-55:29
+action#com.makemoji.mojilib.action.LOCKED_CATEGORY_CLICKED
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:52:17-94
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:52:25-91
+category#android.intent.category.DEFAULT
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:54:17-76
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:54:27-73
+intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:image/*
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:56:13-62:29
+action#android.intent.action.SEND
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:57:17-69
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:57:25-66
+data
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:61:17-52
+	android:mimeType
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:61:23-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:63:13-67:29
+action#android.intent.action.MAIN
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:64:17-69
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:64:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:66:17-77
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:66:27-74
+activity#com.makemoji.sbaar.alpha.ActivateActivity
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:69:9-77:20
+	android:label
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:71:13-46
+	android:windowSoftInputMode
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:73:13-57
+	android:theme
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:72:13-44
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:70:13-45
+intent-filter#action:name:android.intent.action.LAUNCHER
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:74:13-76:29
+action#android.intent.action.LAUNCHER
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:75:17-73
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:75:25-70
+activity#com.makemoji.sbaar.alpha.ReactionsActivity
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:78:9-64
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:78:19-52
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:85:13-87:52
+	android:resource
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:87:17-49
+	android:name
+		ADDED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:86:17-67
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:5-78
+	android:name
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:12:22-75
+uses-permission#com.android.vending.BILLING
+ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:5-67
+MERGED from [:makemoji-sdk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-67
+MERGED from [:makemoji-sdk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-sdk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:13:22-64
+service#com.makemoji.keyboard.MMKB
+ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:16:9-29:19
+	android:enabled
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:18:13-60
+	android:label
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:19:13-49
+	android:permission
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:20:13-70
+	android:theme
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:21:13-54
+	android:name
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:17:13-54
+intent-filter#action:name:android.view.InputMethod
+ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:22:13-24:29
+action#android.view.InputMethod
+ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:17-67
+	android:name
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:23:25-64
+meta-data#android.view.im
+ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:26:13-28:50
+	android:resource
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:28:17-47
+	android:name
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:27:17-47
+provider#com.makemoji.keyboard.MMFileProvider
+ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:31:9-40:20
+	android:grantUriPermissions
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:36:13-47
+	android:enabled
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:34:13-68
+	android:authorities
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:33:13-65
+	android:exported
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [:makemoji-3pk-android] E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\makemoji-3pk-android\build\intermediates\manifests\full\debug\AndroidManifest.xml:32:13-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:23:5-80
+IMPLIED from E:\Priyanka\PlaystoreProjectBackup\EmojiApp\EmojiAlphaVersionBackup\EmojiApp\MojiList\src\main\AndroidManifest.xml:2:1-91:12 reason: com.squareup.leakcanary requested WRITE_EXTERNAL_STORAGE
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:23:22-77
+service#com.squareup.leakcanary.internal.HeapAnalyzerService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:27:9-30:45
+	android:process
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:30:13-42
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:29:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:28:13-80
+service#com.squareup.leakcanary.DisplayLeakService
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:31:9-33:39
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:33:13-36
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:32:13-70
+activity#com.squareup.leakcanary.internal.DisplayLeakActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:35:9-47:20
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:37:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:39:13-71
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:38:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:41:13-63
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:40:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:36:13-80
+activity#com.squareup.leakcanary.internal.RequestStoragePermissionActivity
+ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:48:9-54:68
+	android:enabled
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:50:13-36
+	android:label
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:52:13-82
+	android:icon
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:51:13-54
+	android:theme
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:54:13-65
+	android:taskAffinity
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:53:13-76
+	android:name
+		ADDED from [com.squareup.leakcanary:leakcanary-android:1.5.1] C:\Users\Shree\.gradle\caches\transforms-1\files-1.1\leakcanary-android-1.5.1.aar\2fc4f78420bc7a8faf1adf34bcb96514\AndroidManifest.xml:49:13-93

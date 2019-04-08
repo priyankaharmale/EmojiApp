@@ -1,0 +1,110 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion '27.0.3'
+
+    defaultConfig {
+        minSdkVersion 15
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+        debug{
+            debuggable true
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.github.castorflex.smoothprogressbar:library:1.1.0'
+    api project(':makemoji-sdk-android')
+    /***********Volley Library************/
+    implementation 'com.android.volley:volley:1.0.0'
+    implementation project(path: ':MojiList', configuration: 'default')
+
+
+}
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'com.makemoji:makemoji-3pk-android'
+
+    publishedGroupId = 'com.makemoji'
+    libraryName = 'Makemoji third party keyboard Android'
+    artifact = 'makemoji-3pk-android'
+
+    libraryDescription = 'MakeMoji Android third party keyboard'
+
+    siteUrl = 'https://github.com/makemoji/MakemojiSDK-KeyboardExtension'
+    gitUrl = 'https://github.com/makemoji/MakemojiSDK-KeyboardExtension.git'
+
+    libraryVersion = '0.9.822'
+
+    developerId = 'scottmoji'
+    developerName = 'Scott Baar'
+    developerEmail = 'scott@makemoji.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+//apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+//removed source tasks from above script
+apply plugin: 'com.jfrog.bintray'
+
+version = libraryVersion
+
+if (project.hasProperty("android")) { // Android libraries
+
+    task javadoc(type: Javadoc) {
+        source = android.sourceSets.main.java.srcDirs
+        classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+    }
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+artifacts {
+   // archives javadocJar
+}
+
+// Bintray
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+bintray {
+    user = properties.getProperty("bintray.user")
+    key = properties.getProperty("bintray.apikey")
+
+    configurations = ['archives']
+    pkg {
+        repo = bintrayRepo
+        name = bintrayName
+        desc = libraryDescription
+        userOrg ='mm'
+        websiteUrl = siteUrl
+        vcsUrl = gitUrl
+        licenses = allLicenses
+        publish = true
+        publicDownloadNumbers = false
+        version {
+            desc = libraryDescription
+        }
+    }
+}

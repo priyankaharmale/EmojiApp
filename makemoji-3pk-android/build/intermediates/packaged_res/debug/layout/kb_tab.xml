@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/kb_tab_border">
+
+    <com.makemoji.mojilib.MMForegroundImageView
+        android:layout_width="@dimen/mmKBMaxTabSize"
+        android:tag="iv"
+        android:layout_height="@dimen/mmKBMaxTabSize"
+        android:id="@android:id/icon"
+        android:background="@drawable/kb_tab_bg"
+        tools:src="@drawable/mm_trending"
+        android:scaleType="centerInside"
+        android:layout_gravity="center" />
+</FrameLayout>
